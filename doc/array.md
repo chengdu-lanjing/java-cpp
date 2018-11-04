@@ -92,4 +92,4 @@ java-cpp支持数组全量复制和切片复制，先假设有一个旧数组arr
     int *classicArr = arr->unsafe(); //classicArr为对传统C/C++程序可用的数组，很遗憾，数组长度信息丢失，需另外传递
 
 ----------
-[<上一篇：功能性接口](./functional.md) | [首页](../)  |[下一篇：多线程>](./threading.md)
+[<上一篇：功能性接口](./functional.md) | [首页](https://github.com/chengdu-lanjing/java-cpp)  |[下一篇：多线程>](./threading.md)

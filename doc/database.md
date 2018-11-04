@@ -11,4 +11,4 @@ database/Database.h文件除了定义了CDBC接口的API外，其com_lanjing_cpp
 
 ----------
 
-[<上一篇：HTTP](./http.md) | [首页](../)
+[<上一篇：HTTP](./http.md) | [首页](https://github.com/chengdu-lanjing/java-cpp)
