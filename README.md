@@ -8,6 +8,8 @@ java-cpp是一个C++框架，让开发人员以Java的思维方式开发C++应�
  3. cd {java-cpp-home}/scripts
  4. ./all_demos.sh
  5. 根据命令行打印的菜单列表，输入选择项再回车。可以选择运行单个demo，一系列demo，或所有的demo
+
+ 如果执行所有的demo，能看到类似的[输出结果](./doc/all_demos_result.txt)
  
 **注意事项**
 1. 如果要运行HTTP相关的demo，需先安装[curl](https://curl.haxx.se/)。
