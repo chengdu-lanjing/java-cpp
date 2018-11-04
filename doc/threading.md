@@ -19,4 +19,4 @@ ExecutorService.h提供了com_lanjing_cpp_common::ScheduledExecutorService类，
 
 
 ----------
-[<上一篇：数组](./array.md) | [首页](..) | [下一篇：日志>](./logging.md)
+[<上一篇：数组](./array.md) | [首页](../) | [下一篇：日志>](./logging.md)
