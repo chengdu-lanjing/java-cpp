@@ -4,7 +4,7 @@ java-cpp是一个C++框架，让开发人员以Java的思维方式开发C++应�
 # 如何运行demo？ #
 
  1. 进入linux或mac操作系统（目前暂不支持windows）
- 2. 将本仓库git clone到本地，或下载到本地再解压。加入最终java-cpp根目录为${java-cpp-home}
+ 2. 将本仓库git clone到本地，或下载到本地再解压。假设最终java-cpp根目录为${java-cpp-home}
  3. cd {java-cpp-home}/scripts
  4. ./all_demos.sh
  5. 根据命令行打印的菜单列表，输入选择项再回车。可以选择运行单个demo，一系列demo，或所有的demo
