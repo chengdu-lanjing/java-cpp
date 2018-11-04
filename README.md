@@ -30,6 +30,7 @@ java-cpp是一个C++框架，让开发人员以Java的思维方式开发C++应�
 8. [数据库：统一的CDBC API，Sqlite3驱动](./doc/database.md)
 
 # 版权 #
+本框架归成都蓝景信息技术有限（Chengdu Lanjing Data&information Technology Co.,L）公司所有，协议为MIT，请阅读[LICENSE](./LICENSE)以了解更多
 
 ----------
 陈涛，成都蓝景信息技术有限公司CTO
