@@ -86,5 +86,5 @@ defer保证在最后结尾处右花括号处一定会执行teardown()，无论te
 
 ----------
 
-[<前一篇：内存管理](./memory.md) | [首页](../README.md) | [下一篇：功能性接口>](./functional.md)
+[<前一篇：内存管理](./memory.md) | [首页](..) | [下一篇：功能性接口>](./functional.md)
 
