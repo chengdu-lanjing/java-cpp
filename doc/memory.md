@@ -86,7 +86,7 @@ finalize函数在当前类及所有派生类均析构之前自动执行，因此
 
 接下来，我们讨论一下对于java-cpp的引用类型对象的生命周期和对象复活问题，其生命周期如下图所示：
 
-![lifecycle](./doc/object-lifecycle.png)
+![lifecycle](./object-lifecycle.png)
 
 执行顺序如下
 
