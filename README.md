@@ -23,7 +23,7 @@ java-cpp是一个C++框架，让开发人员以Java的思维方式开发C++应�
 2. 在C++连接器参数中添加"-lpthread"；如果使用了HTTP相关功能, 请添加"-lcurl"(需先安装[curl](https://curl.haxx.se/))；如果使用了sqlite相关的功能， 请添加"-lsqlite3"(需先安装[sqlite3](https://www.sqlite.org/index.html))。
  
 # 文档目录 #
-1. [内存管理： 强引用，弱引用，内存泄漏，对象复活](./doc/memory.md)
+1. [内存管理： 强引用，弱引用，内存监控，对象复活](./doc/memory.md)
 2. [异常：异常链，finally](./doc/exception.md)
 3. [功能性接口：功能合并和拆分，事件支持](./doc/functional.md)
 4. [数组](./doc/array.md)
