@@ -75,7 +75,7 @@ WeakRef&lt;T&gt;并不支持"->"运算符来让用户调用对象的行为，所
 
 为了解决此问题，java-cpp在Object基类中提供了三个保护级的虚函数，它们会被框架自动执行，在自己的类中覆盖它们即可，无需关心它们时怎么被调用的：
 
-    pretected:
+    protected:
         virtual void initialize();
         virtual void resurrect();
         virtual void finalize();

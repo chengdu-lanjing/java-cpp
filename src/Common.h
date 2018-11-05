@@ -400,7 +400,8 @@ namespace com_lanjing_cpp_common {
     /**
      * 始祖类
      *
-     * std::shared_ptr虽然属于不侵入设计，但是性能低下，更要命的是，不可和裸指针“反复”转换；
+     * std::shared_ptr虽然属于不侵入设计，但让原始指针和智能指针不再兼容, 
+     * 导致将this指针逃逸出去很麻烦，即便小心地处理了,代码也不简洁,不易理解；
      * 所以，仍然使用COM和Objective-C的风格 的侵入式设计，
      * 所有设计意图为堆分配的类均需直接或间接从此类派生
      */
@@ -432,12 +433,8 @@ namespace com_lanjing_cpp_common {
         }
 
         /*
-          * 拜type_info.name()不是真正的类名所赐，本函数得到真正的类名
-          * 【
-          * 注： 本函数大量使用了string复制，自C++11开始，std::string已经是使用了延迟复制（只有修改副本时才复制），
-          * 所以，不用担心传统的C++频繁复制导致的性能问题
-          * 】
-          */
+         * 拜type_info.name()不是真正的类名所赐，本函数得到真正的类名
+         */
         static const string className(const type_info &typeInfo) {
 
             string value;

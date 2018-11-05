@@ -1,4 +1,4 @@
-chentao@chentao:~/frank/java-cpp/scripts$ ./all_demos.sh 
+entao@chentao:~/frank/cpp-project/java-cpp/scripts$ ./all_demos.sh 
 -------------------------------------------------------------
 This is the menu
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -16,7 +16,7 @@ h. Help, print all menu items
 3. Array demo
 4. Functional interface demos
     4.1 Demo about how to combine and split functional interfaces by '+', '-', '+=', '-='
-    4.2 Demo about how to use functional interface to support java bean event"
+    4.2 Demo about how to use functional interface to support java bean event
 5. Multiple threads demos
     5.1 Demo about blocking queue
     5.2 Demo about simple thread pool
@@ -32,13 +32,13 @@ Please enter you choice: a
 -------------------------------------------------------------
 1.1 Demo about Ref & WeakRef
 >>>
-demo_memory::TestObject@0xcb5010 has been created
+demo_memory::TestObject@0x1bd6010 has been created
 demo> Initialize variables
-ref1 = demo_memory::TestObject@0xcb5010, ref2 = demo_memory::TestObject@0xcb5010, weakRef1 = WeakRef(demo_memory::TestObject@0xcb5010), weakRef2 = WeakRef(demo_memory::TestObject@0xcb5010)
+ref1 = demo_memory::TestObject@0x1bd6010, ref2 = demo_memory::TestObject@0x1bd6010, weakRef1 = WeakRef(demo_memory::TestObject@0x1bd6010), weakRef2 = WeakRef(demo_memory::TestObject@0x1bd6010)
 demo> Let ref1 be nullptr
-ref1 = nullptr, ref2 = demo_memory::TestObject@0xcb5010, weakRef1 = WeakRef(demo_memory::TestObject@0xcb5010), weakRef2 = WeakRef(demo_memory::TestObject@0xcb5010)
+ref1 = nullptr, ref2 = demo_memory::TestObject@0x1bd6010, weakRef1 = WeakRef(demo_memory::TestObject@0x1bd6010), weakRef2 = WeakRef(demo_memory::TestObject@0x1bd6010)
 demo> Let ref2 be nullptr(The object will be destroyed and all the weak references will be cleared automatically)
-demo_memory::TestObject@0xcb5010 will be destroyed
+demo_memory::TestObject@0x1bd6010 will be destroyed
 ref1 = nullptr, ref2 = nullptr, weakRef1 = WeakRef(nullptr), weakRef2 = WeakRef(nullptr)
 All the objects are deleted
 -------------------------------------------------------------
@@ -141,7 +141,7 @@ Print the element of changed fibonacci array
 -55
 The macro 'DEBUG' is defined so that array checks the whether the index is out of range
 com_lanjing_cpp_common::IllegalArgumentException: Array index out of range
-	at ../src/Common.h:1539
+	at ../src/Common.h:1543
 All the objects are deleted
 -------------------------------------------------------------
 4.1 Demo about how to combine and split functional interfaces by '+', '-', '+=', '-='
@@ -153,7 +153,7 @@ Function '/' is invoked
 6.42857
 Function '+' is invoked
 Function '*' is invoked
-52
+315
 all is nullptr
 All the objects are deleted
 -------------------------------------------------------------
@@ -161,27 +161,27 @@ All the objects are deleted
 >>>
 Change name to 'Kate'
 	Use the handler object 'event-handler-1' to handle the event:
-		The name of 'demo_functional::Person@0x1cfa010' has been changed, the old name is '' and the new name is 'Kate'
+		The name of 'demo_functional::Person@0x1f5a010' has been changed, the old name is '' and the new name is 'Kate'
 Change name to 'Tom'
 	Use the handler object 'event-handler-1' to handle the event:
-		The name of 'demo_functional::Person@0x1cfa010' has been changed, the old name is 'Kate' and the new name is 'Tom'
+		The name of 'demo_functional::Person@0x1f5a010' has been changed, the old name is 'Kate' and the new name is 'Tom'
 	Use the handler object 'event-handler-2' to handle the event:
-		The name of 'demo_functional::Person@0x1cfa010' has been changed, the old name is 'Kate' and the new name is 'Tom'
+		The name of 'demo_functional::Person@0x1f5a010' has been changed, the old name is 'Kate' and the new name is 'Tom'
 Change name to 'Mary'
 	Use the handler object 'event-handler-1' to handle the event:
-		The name of 'demo_functional::Person@0x1cfa010' has been changed, the old name is 'Tom' and the new name is 'Mary'
+		The name of 'demo_functional::Person@0x1f5a010' has been changed, the old name is 'Tom' and the new name is 'Mary'
 	Use the handler object 'event-handler-2' to handle the event:
-		The name of 'demo_functional::Person@0x1cfa010' has been changed, the old name is 'Tom' and the new name is 'Mary'
+		The name of 'demo_functional::Person@0x1f5a010' has been changed, the old name is 'Tom' and the new name is 'Mary'
 	Use the handler object 'event-handler-3' to handle the event:
-		The name of 'demo_functional::Person@0x1cfa010' has been changed, the old name is 'Tom' and the new name is 'Mary'
+		The name of 'demo_functional::Person@0x1f5a010' has been changed, the old name is 'Tom' and the new name is 'Mary'
 Change name to 'Linda'
 	Use the handler object 'event-handler-2' to handle the event:
-		The name of 'demo_functional::Person@0x1cfa010' has been changed, the old name is 'Mary' and the new name is 'Linda'
+		The name of 'demo_functional::Person@0x1f5a010' has been changed, the old name is 'Mary' and the new name is 'Linda'
 	Use the handler object 'event-handler-3' to handle the event:
-		The name of 'demo_functional::Person@0x1cfa010' has been changed, the old name is 'Mary' and the new name is 'Linda'
+		The name of 'demo_functional::Person@0x1f5a010' has been changed, the old name is 'Mary' and the new name is 'Linda'
 Change name to 'Smith'
 	Use the handler object 'event-handler-3' to handle the event:
-		The name of 'demo_functional::Person@0x1cfa010' has been changed, the old name is 'Linda' and the new name is 'Smith'
+		The name of 'demo_functional::Person@0x1f5a010' has been changed, the old name is 'Linda' and the new name is 'Smith'
 Change name to 'Lucy'
 All the objects are deleted
 -------------------------------------------------------------
@@ -196,48 +196,48 @@ All the objects are deleted
 -------------------------------------------------------------
 5.2 Demo about simple thread pool
 >>>
-[millis: 1540893806055] Task-3
-[millis: 1540893806055] Task-2
-[millis: 1540893806055] Task-4
-[millis: 1540893806055] Task-1
+[millis: 1541396569305] Task-1
+[millis: 1541396569305] Task-2
+[millis: 1541396569305] Task-3
+[millis: 1541396569305] Task-4
 --------------------------------------
-[millis: 1540893807055] Task-5
-[millis: 1540893807055] Task-6
-[millis: 1540893807055] Task-8
-[millis: 1540893807055] Task-7
+[millis: 1541396570305] Task-5
+[millis: 1541396570305] Task-6
+[millis: 1541396570305] Task-7
+[millis: 1541396570305] Task-8
 --------------------------------------
-[millis: 1540893808055] Task-9
-[millis: 1540893808056] Task-10
-[millis: 1540893808056] Task-11
-[millis: 1540893808056] Task-12
+[millis: 1541396571306] Task-10
+[millis: 1541396571306] Task-11
+[millis: 1541396571306] Task-9
+[millis: 1541396571306] Task-12
 --------------------------------------
 All the objects are deleted
 -------------------------------------------------------------
 5.3 Demo about scheduled thread pool
 >>>
 --------------------schedule--------------------
-[millis: 1540893810331] Scheduled-A task will be executed 1 second later
-[millis: 1540893810331] Scheduled-B task will be executed 0.5 second later
-[millis: 1540893810831] Scheduled task-B
-[millis: 1540893811331] Scheduled task-A
+[millis: 1541396573489] Scheduled-A task will be executed 1 second later
+[millis: 1541396573489] Scheduled-B task will be executed 0.5 second later
+[millis: 1541396573990] Scheduled task-B
+[millis: 1541396574489] Scheduled task-A
 --------------------sheduleAtFixedRate--------------------
-[millis: 1540893812431] Scheduled task at fixed rate: 500ms
-[millis: 1540893813432] Scheduled task at fixed rate: 500ms
-[millis: 1540893814432] Scheduled task at fixed rate: 500ms
-[millis: 1540893815432] Scheduled task at fixed rate: 500ms
-[millis: 1540893816432] Scheduled task at fixed rate: 500ms
+[millis: 1541396575590] Scheduled task at fixed rate: 500ms
+[millis: 1541396576590] Scheduled task at fixed rate: 500ms
+[millis: 1541396577590] Scheduled task at fixed rate: 500ms
+[millis: 1541396578591] Scheduled task at fixed rate: 500ms
+[millis: 1541396579591] Scheduled task at fixed rate: 500ms
 --------------------sheduleWithFixedDelay--------------------
-[millis: 1540893817531] Scheduled task with fixed delay: 500ms
-[millis: 1540893819031] Scheduled task with fixed delay: 500ms
-[millis: 1540893820532] Scheduled task with fixed delay: 500ms
+[millis: 1541396580690] Scheduled task with fixed delay: 500ms
+[millis: 1541396582191] Scheduled task with fixed delay: 500ms
+[millis: 1541396583691] Scheduled task with fixed delay: 500ms
 All the objects are deleted
 -------------------------------------------------------------
 6. Logging
 >>>
 
-2018-10-30 18:3:43 demo_logging::Business - INFO: By relativity theory, 1.89765e+08m/s + 1.59233e+08/ms = 2.61186e+08m/s
-2018-10-30 18:3:43 demo_logging::Business -DEBUG: Peter Piper picked a peck of pickled peppers. A peck of pickled peppers Peter Piper picked. If Peter Piper picked a peck of pickled peppers, Where's the peck of pickled peppers Peter Piper picked?
-2018-10-30 18:3:43 demo_logging::Business -ERROR: OMG, there is an exception whose type is 'demo_logging::WrapperException'
+2018-11-5 13:43:6 demo_logging::Business - INFO: By relativity theory, 1.89765e+08m/s + 1.59233e+08/ms = 2.61186e+08m/s
+2018-11-5 13:43:6 demo_logging::Business -DEBUG: Peter Piper picked a peck of pickled peppers. A peck of pickled peppers Peter Piper picked. If Peter Piper picked a peck of pickled peppers, Where's the peck of pickled peppers Peter Piper picked?
+2018-11-5 13:43:6 demo_logging::Business -ERROR: OMG, there is an exception whose type is 'demo_logging::WrapperException'
 demo_logging::WrapperException: This is a wrapper for raw exception
 	at ../demo/logging/simple.cpp:32
 Caused by: demo_logging::RawException: Holy crap, there is a raw exception
@@ -246,13 +246,13 @@ Caused by: demo_logging::RawException: Holy crap, there is a raw exception
 <?xml version = "1.0"?>
 <log-records>
 	<log-record>
-		<timestamp>2018-10-30 18:3:43</timestamp>
+		<timestamp>2018-11-5 13:43:6</timestamp>
 		<tag>demo_logging::Business</tag>
 		<level>INFO</level>
 		<message>By relativity theory, 1.89765e+08m/s + 1.59233e+08/ms = 2.61186e+08m/s</message>
 	</log-record>
 	<log-record>
-		<timestamp>2018-10-30 18:3:43</timestamp>
+		<timestamp>2018-11-5 13:43:6</timestamp>
 		<tag>demo_logging::Business</tag>
 		<level>ERROR</level>
 		<message>OMG, there is an exception whose type is 'demo_logging::WrapperException'</message>
@@ -299,28 +299,35 @@ All the objects are deleted
 8. Database demo
 >>>
 
-2018-10-30 18:3:47 demo_database::ProductRepository - INFO: The table 'product' already exists, skip schema creating step
+2018-11-5 13:43:10 demo_database::ProductRepository - INFO: Create table 'product'
 -----------------------------------
 Clear products
-Cleared, affected row count is 4
+Cleared, affected row count is 0
 -----------------------------------
 Insert rows
 -----------------------------------
+Query all the products
+{ id: 1, name: "Egg", price: 3.6 }
+{ id: 2, name: "Pork", price: 16.2 }
+{ id: 3, name: "Cake", price: 14.5 }
+{ id: 4, name: "Beef", price: 25.3 }
+-----------------------------------
 Query products like '%e%'
-{ id: 92, name: "Beef", price: 25.3 }
-{ id: 91, name: "Cake", price: 14.5 }
-{ id: 89, name: "Egg", price: 3.6 }
+{ id: 4, name: "Beef", price: 25.3 }
+{ id: 3, name: "Cake", price: 14.5 }
+{ id: 1, name: "Egg", price: 3.6 }
 -----------------------------------
 Query products by price range [10, 15]
-{ id: 91, name: "Cake", price: 14.5 }
+{ id: 3, name: "Cake", price: 14.5 }
 -----------------------------------
 Modify the price of 'Pork' to be 14.9
 -----------------------------------
 Query products by price range [10, 15]
-{ id: 91, name: "Cake", price: 14.5 }
-{ id: 90, name: "Pork", price: 14.9 }
+{ id: 3, name: "Cake", price: 14.5 }
+{ id: 2, name: "Pork", price: 14.9 }
 
 All the objects are deleted
 -------------------------------------------------------------
 Please enter you choice: x
-chentao@chentao:~/frank/java-cpp/scripts$ 
+chentao@chentao:~/frank/cpp-project/java-cpp/scripts$ 
+
